@@ -25,11 +25,14 @@ public class QuestionService
             throw new ArgumentOutOfRangeException("Count must not be zero or negative.");
         }
 
+
         var questions = _repo.GetAll();
-        return questions
-                    .Shuffle()
-                    .Take(count)
-                    .ToList();
+        var result = questions
+            .OrderBy(_ => Random.Shared.Next())  // pseudo-slumpordning
+            .Take(count)
+            .ToList();
+
+        return result;
     }
 
     private void EnsureValid()

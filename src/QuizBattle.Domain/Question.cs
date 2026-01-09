@@ -5,8 +5,8 @@ public  class Question
 {
     public Question(string text, Choice[] choices, string correctAnswerCode)
     {
-        Text = text.Trim();
-        Choices = choices.ToList();
+        Text = text?.Trim()!;
+        Choices = choices?.ToList()!;
         CorrectAnswerCode = correctAnswerCode;
         EnsureValid();
     }
