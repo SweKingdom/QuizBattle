@@ -1,5 +1,6 @@
 
 using QuizBattle.Console;
+using QuizBattle.Console.Extensions;
 
 const int numberOfQuestions = 3;
 

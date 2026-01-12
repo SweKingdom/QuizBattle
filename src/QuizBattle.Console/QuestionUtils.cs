@@ -1,5 +1,6 @@
-﻿using QuizBattle.Console.Extensions;
+using QuizBattle.Console.Extensions;
 using QuizBattle.Domain;
+
 using static System.Console;
 
 namespace QuizBattle.Console;
@@ -55,11 +56,11 @@ public class QuestionUtils
 
     public static int PromptForAnswer(Question question)
     {
-        System.Console.Write("Ditt svar (1-" + question.ChoicesCount() + "): ");
+        System.Console.Write("Ditt svar (1-" + question.GetChoiceCount() + "): ");
 
         int pick;
 
-        while (!int.TryParse(System.Console.ReadLine(), out pick) || pick < 1 || pick > question.ChoicesCount())
+        while (!int.TryParse(System.Console.ReadLine(), out pick) || pick < 1 || pick > question.GetChoiceCount())
         {
             System.Console.Write("Ogiltigt val. Försök igen: ");
         }
