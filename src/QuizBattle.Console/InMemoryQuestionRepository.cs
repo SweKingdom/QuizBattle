@@ -1,4 +1,4 @@
-﻿using QuizBattle.Domain;
+using QuizBattle.Domain;
 
 namespace QuizBattle.Console
 {

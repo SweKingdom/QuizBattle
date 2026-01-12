@@ -1,7 +1,5 @@
-﻿
+
 using QuizBattle.Console;
-using QuizBattle.Console.Extensions;
-using QuizBattle.Domain;
 
 const int numberOfQuestions = 3;
 
