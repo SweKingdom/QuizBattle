@@ -1,6 +1,6 @@
 ﻿namespace QuizBattle.Application
 {
-    public class Class1
+    public record StartSession()
     {
 
     }
