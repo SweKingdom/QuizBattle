@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using QuizBattle.Infrastructure.Extensions;
 using QuizBattle.Application.Extensions;
 using QuizBattle.Console.Presentation;
+using QuizBattle.Console.Extensions;
 
 const int numberOfQuestions = 3;
 
