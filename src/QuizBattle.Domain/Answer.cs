@@ -1,4 +1,4 @@
-﻿namespace QuizBattle.Domain
+namespace QuizBattle.Domain
 {
     public class Answer
     {
@@ -10,9 +10,9 @@
             EnsureValid();
         }
 
-        public Question Question { get; }
-        public string SelectedChoiceCode { get; }
-        public DateTime AnsweredAtUtc { get; }
+        public Question Question { get; set; }
+        public string SelectedChoiceCode { get; set; }
+        public DateTime AnsweredAtUtc { get; set; }
 
         public bool IsCorrect => Question.IsCorrect(SelectedChoiceCode);
 

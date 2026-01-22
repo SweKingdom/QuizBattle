@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,12 +24,12 @@ namespace QuizBattle.Domain
             EnsureValid();
         }
 
-        public string Code { get; }
-        public string Text { get; }
-        public List<Choice> Choices { get; }
-        public string CorrectAnswerCode { get; }
-        public string? Category { get; }
-        public int? Difficulty { get; }
+        public string Code { get; set; }
+        public string Text { get; set; }
+        public List<Choice> Choices { get; set; }
+        public string CorrectAnswerCode { get; set; }
+        public string? Category { get; set; }
+        public int? Difficulty { get; set; }
 
         public bool IsCorrect(string selectedChoiceCode) =>
             string.Equals(selectedChoiceCode, CorrectAnswerCode, StringComparison.OrdinalIgnoreCase);
