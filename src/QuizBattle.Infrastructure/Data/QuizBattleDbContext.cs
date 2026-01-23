@@ -11,6 +11,8 @@ namespace QuizBattle.Infrastructure.Data
     public class QuizBattleDbContext : DbContext
     {
         public DbSet<Answer> Answers => Set<Answer>();
+
+        // 
         public DbSet<Choice> Choices => Set<Choice>();
         public DbSet<Question> Questions => Set<Question>();
         public DbSet<QuizSession> Sessions => Set<QuizSession>();

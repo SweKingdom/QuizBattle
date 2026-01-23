@@ -1,4 +1,4 @@
-﻿
+
 using System;
 
 namespace QuizBattle.Domain
@@ -12,6 +12,10 @@ namespace QuizBattle.Domain
             Text = option;
             EnsureValid();
         }
+
+
+
+
 
         public Guid Id { get; }
         public string Code { get; }
