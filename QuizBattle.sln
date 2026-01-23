@@ -38,10 +38,33 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "About", "About", "{743D0AD2
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TODO", "TODO", "{C9AB0E24-F730-4B29-9308-8D74900AC2D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V3", "V3", "{6C37CF04-06BD-4B39-9009-86B6B462F662}"
+	ProjectSection(SolutionItems) = preProject
+		docs\TODO-2026-01-13.md = docs\TODO-2026-01-13.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2", "V2", "{16D00592-3805-4B91-856D-A12AE834436D}"
 	ProjectSection(SolutionItems) = preProject
 		docs\TODO-2026-01-08.md = docs\TODO-2026-01-08.md
 		docs\TODO-2026-01-09.md = docs\TODO-2026-01-09.md
-		docs\TODO-2026-01-13.md = docs\TODO-2026-01-13.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V4", "V4", "{9DA784AE-7BBC-49A2-B069-9E83D7111D66}"
+	ProjectSection(SolutionItems) = preProject
+		docs\todo\v4d3\00-index.md = docs\todo\v4d3\00-index.md
+		docs\todo\v4d3\01-domän-efcore-krav.md = docs\todo\v4d3\01-domän-efcore-krav.md
+		docs\todo\v4d3\02-infrastruktur-dbcontext-sqlite.md = docs\todo\v4d3\02-infrastruktur-dbcontext-sqlite.md
+		docs\todo\v4d3\03-migrationer.md = docs\todo\v4d3\03-migrationer.md
+		docs\todo\v4d3\04-seeddata.md = docs\todo\v4d3\04-seeddata.md
+		docs\todo\v4d3\05-api-kontrakt-intro.md = docs\todo\v4d3\05-api-kontrakt-intro.md
+		docs\todo\v4d3\06-minimal-api-skelett.md = docs\todo\v4d3\06-minimal-api-skelett.md
+		docs\todo\v4d3\07-endpoints-sessions.md = docs\todo\v4d3\07-endpoints-sessions.md
+		docs\todo\v4d3\08-endpoints-questions.md = docs\todo\v4d3\08-endpoints-questions.md
+		docs\todo\v4d3\09-smoketest-http.md = docs\todo\v4d3\09-smoketest-http.md
+		docs\todo\v4d3\10-troubleshooting.md = docs\todo\v4d3\10-troubleshooting.md
+		docs\todo\v4d3\11-definition-of-done.md = docs\todo\v4d3\11-definition-of-done.md
+		docs\todo\v4d3\12-crud-quickref.md = docs\todo\v4d3\12-crud-quickref.md
 	EndProjectSection
 EndProject
 Global
@@ -127,6 +150,9 @@ Global
 		{F7574918-BD27-4DD5-A54D-FA46589952A7} = {DF516102-7CCD-4543-9FD0-F9CF2210B23D}
 		{743D0AD2-8849-4483-84A0-A3979EC54D33} = {DF516102-7CCD-4543-9FD0-F9CF2210B23D}
 		{C9AB0E24-F730-4B29-9308-8D74900AC2D5} = {DF516102-7CCD-4543-9FD0-F9CF2210B23D}
+		{6C37CF04-06BD-4B39-9009-86B6B462F662} = {C9AB0E24-F730-4B29-9308-8D74900AC2D5}
+		{16D00592-3805-4B91-856D-A12AE834436D} = {C9AB0E24-F730-4B29-9308-8D74900AC2D5}
+		{9DA784AE-7BBC-49A2-B069-9E83D7111D66} = {C9AB0E24-F730-4B29-9308-8D74900AC2D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {993931F4-7127-4F03-B7AD-ED9CAF243ECC}
