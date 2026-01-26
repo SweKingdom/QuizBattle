@@ -8,7 +8,7 @@ public sealed partial class QuizBattleDbContext : DbContext
     public DbSet<Question> Questions => Set<Question>();
     public DbSet<Choice> Choices => Set<Choice>();
     public DbSet<Answer> Answers => Set<Answer>();
-    // Lägg till Sessions om ni vill persistera dem nu
+    public DbSet<QuizSession> Sessions => Set<QuizSession>();
 
     protected override void OnModelCreating(ModelBuilder b)
     {
